@@ -1,0 +1,61 @@
+body {
+	background: url(http://subtlepatterns.com/patterns/concrete_seamless.png);
+}
+
+#Flags:not(.ie) #asana_main #center_pane_container,
+ #asana_main #center_pane_container {
+	max-width: 100%;
+	margin-left: 10px;
+}
+
+#Flags:not(.ie) #asana_main #center_pane_container.team-page,
+#asana_main #center_pane_container.team-page {
+	margin-right: 10px;
+}
+
+#navigation_dock .team {
+	border-top: 1px solid rgba(0,0,0,.05);
+}
+
+.team .team-header {
+	transition-property: opacity;
+	transition-duration: .25s;
+	transition-property: transform;
+	transition-duration: .25s;
+
+	opacity: .5;
+	transform: scale(.9);
+}
+
+.team.open .team-header {
+	opacity: 1;
+	transform: scale(1);
+}
+
+#navigation_dock .team a.list-item {
+	padding-left: 18px;
+}
+#navigation_dock .navigation-doc-item-icon {
+	margin-left: 0;
+}
+
+#asana_main .team-feed-conversation .responses,
+#asana_main .team-feed-conversation .conversation-reply-message,
+#asana_main .message-view.small-message {
+	max-width: 100%;
+}
+
+.message-view.small-message,
+.team-feed-conversation>.message-view,
+.team-feed-conversation .responses,
+.team-feed-conversation .conversation-reply-message {
+	max-width: 100%;
+}
+
+.conversation-reply-message .composer-input-wrap {
+	width: auto;
+}
+
+#navigation_dock .team-browser .ad {
+	display: none;
+}

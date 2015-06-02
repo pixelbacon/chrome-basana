@@ -1,0 +1,18 @@
+{
+  "name": "chrome-basana",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pixelbacon/chrome-basana",
+  "authors": [
+    "Michael Minor <me@pixelbacon.com>"
+  ],
+  "description": "A few CSS improvements to Asana.com",
+  "keywords": [
+    "chrome",
+    "extension",
+    "bower"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
